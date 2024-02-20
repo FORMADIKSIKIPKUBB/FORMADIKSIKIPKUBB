@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    text-decoration: none;
+    margin: 0;
+}
+    
+body{
+    background-image:url(background.jpg) ;
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background: rgb(18,6,181);
+    background: radial-gradient(circle, rgba(18,6,181,1) 0%, rgba(252,8,8,1) 32%, rgba(126,6,200,1) 67%, rgba(0,0,0,1) 100%);
+    border-bottom: 5px solid black;
+
+}
+.logo{
+    width: 30%;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-shadow: 40%;
+}
+nav ul li a:hover{
+    color: red;
+    transition: 0.5s;
+}
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 100%;
+    margin-bottom: 30px auto;
+    text-align: center;
+}
+.box {
+    padding-top: 130px;
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+   
+}
+.card{
+    height: 150px;
+    width: 200px;
+    padding: 20px 20px;
+    background: silver;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.card h5{
+    color:red;
+    font-size: 17px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pra p a{
+    background-color: silver;
+    color: black;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 5px 7px;
+    border-radius: 30px;
+    transition: 0.5s ;
+
+    
+}
+.pra p a:hover{
+    transform: scale(1.2);
+    border: 2px solid red;
+    background-color: transparent;
+}
+.card .deskripsi{
+    font-size: 11px;
+    color: black;
+    padding-bottom: 15px;
+}
+.btn{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius:30px;
+    transition: 0.5s ;
+
+}
+.btn:hover{
+    transform: scale(1.2);
+    border: 2px solid red;
+    background-color: transparent;
+}
+
+@media only screen and (max-width:700px){
+    .logo{
+        width: 30%;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 4%;
+        padding-left: 4%;
+        background-color: #191919;
+        border-bottom: 3px solid black;
+    }
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding:2px 2px;
+    }
+    nav a{
+        font-size: 10px;
+        padding-right: 5px;
+    }
+    .btn{
+        background-color: red;
+        color: wheat;
+        border: 2px solid white;
+        font-weight: bold;
+        padding: 3px 6px;
+        border-radius: 20px;
+        transition: transform .5s;
+    }
+    nav ul li a{
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+        text-transform: capitalize; 
+    }  
+    .card{
+        height: 25px;
+        width: 50px;
+        padding: 90px 70px;
+        background: silver;
+        border-radius: 10px;
+        margin: 5px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        border: 1px solid black;
+        justify-content: center;
+        align-items: center;
+    }
+    .box {
+        padding-top: 130px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-top: 30px;
+    }
+    nav h2{
+        font-size: 9px;
+    }
+}
+@media only screen and (min-width:200px){
+    .index{
+        margin-right: -22px;
+        background-color: wheat;
+        
+    }
+    .logo{
+        width: 30%;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+    }
+    nav{
+        margin-right: -100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 4%;
+        padding-left: 4%;
+        background-color: #191919;
+        border-bottom: 3px solid black;
+    }
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding:2px 2px;
+    }
+    nav h2{
+        font-size: 9px;
+    }
+    nav a{
+        font-size: 10px;
+        padding-right: 5px;
+    }
+    .btn{
+        background-color: red;
+        color: wheat;
+        border: 2px solid white;
+        font-weight: bold;
+        padding: 3px 6px;
+        border-radius: 20px;
+        transition: transform .5s;
+    }
+    nav ul li a{
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+        text-transform: capitalize; 
+    }  
+    
+}
+@media only screen and (min-width:240px){
+    nav h2{
+        font-size: 9px;
+    }
+}

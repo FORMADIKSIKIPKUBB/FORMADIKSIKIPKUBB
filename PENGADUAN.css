@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.index{
+    height: 880px;
+    width: 100%;
+    background-image: url(background.jpg);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background: rgb(18,6,181);
+    background: radial-gradient(circle, rgba(18,6,181,1) 0%, rgba(252,8,8,1) 32%, rgba(126,6,200,1) 67%, rgba(0,0,0,1) 100%);
+    border-bottom: 5px solid black;
+
+}
+.logo{
+    width: 30%;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+nav ul li{
+    
+    display: inline-block;
+    padding: 10px 10px;
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-shadow: 40%;
+}
+nav ul li a:hover{
+    color: red;
+    transition: 0.5s;
+}
+nav li ul.dropdown li{
+    display: block;
+}
+nav ul li ul.dropdown {
+    width: 160px;
+    background: BLACK;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    border-radius: 10px;
+    border:  2px solid red;
+}
+nav ul li a:hover{
+    background: whitesmoke;
+}
+nav ul li:hover ul.dropdown{
+    display: block;
+}
+.judul{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: 5px 5px 10px blue, -5px -5px 10px whitesmoke;
+}
+.tengah1{
+   
+    height: 500px;
+    width: 1300px;
+    padding: 10px 10px;
+    background: transparent;
+    border-radius: 20px;
+    margin: 15px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid white;
+    position: relative;
+    
+}
+.judul2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-shadow: 5px 5px 10px blue, -5px -5px 10px whitesmoke;
+}
+.deskripsi{
+    padding-top: 20px;
+    font-size: 16px;
+}
+.deskripsi1{
+    padding-top: 25px;
+    font-size: 16px;
+}
+.atur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dalam{
+    padding-left: 50px;
+    padding-right: 50px;
+    color: antiquewhite;
+    font-size: 50px;
+    display: block;
+    place-items: center;
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 5px 5px 10px blue, -5px -5px 10px whitesmoke;
+    transition: 0.5s ;
+    
+}
+.dalam:hover{
+    transform: scale(1.2);
+    
+    background-color: transparent;
+}
+.whatsapp
+{color: green;}
+.instagram{
+    color: palevioletred;
+}
+@media only screen and (max-width:576px)
+{
+    .logo{
+        width: 30%;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 3%;
+        padding-left: 4%;
+        background-color: #191919;
+        border-bottom: 3px solid black;
+    }
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding:2px 2px;
+    }
+    nav a{
+        font-size: 10px;
+        padding-right: 5px;
+    }
+    .btn{
+        background-color: red;
+        color: wheat;
+        border: 2px solid white;
+        font-weight: bold;
+        padding: 3px 3px;
+        border-radius: 20px;
+        transition: transform .5s;
+        margin-left: 10px;
+    }
+    nav ul li a{
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+        text-transform: capitalize; 
+    }  
+    .tengah1{
+        width: 240px;
+        
+        height: 500px;
+    }
+    .tengah2{
+        margin-top: 320px;
+        width: 240px;
+        
+        height: 500px;
+    }
+    .tengah1 .isi{
+        color: red;
+    }
+    .PELAPORAN{
+        height: 1800px;
+    }
+    .dalam{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:334px)
+{
+    .tengah1{
+        width: 280px;
+        
+        height: 500px;
+    }
+    .tengah2{
+        margin-top: 320px;
+        width: 280px;
+        
+        height: 500px;
+    }
+    .tengah1 .isi{
+        color: red;
+    }
+    .PELAPORAN{
+        height: 1800px;
+    }
+}
+@media only screen and (max-width:258px)
+{
+    .tengah1{
+        width: 120px;
+        
+        height: 500px;
+    }
+    .tengah2{
+        margin-top: 320px;
+        width: 120px;
+        
+        height: 500px;
+    }
+    .tengah1 .isi{
+        color: red;
+    }
+    .PELAPORAN{
+        height: 1800px;
+    }
+    .judul{
+        font-size: 15px;
+    }
+    .judul2{
+        font-size: 11px;
+        
+    }
+    .deskripsi{
+        font-size: 9px;
+    }
+    .deskripsi1{
+        font-size: 9px;
+
+    }
+    .dalam{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    nav{
+        margin-right: -20px;
+    }
+    .index{
+        margin-right: -30px;
+
+    }
+}
+@media only screen and (max-width:276px)
+{
+    .tengah1{
+        width: 230px;
+        
+        height: 500px;
+    }
+    .tengah2{
+        margin-top: 320px;
+        width: 230px;
+        
+        height: 500px;
+    }
+    .tengah1 .isi{
+        color: red;
+    }
+    .PELAPORAN{
+        height: 1800px;
+    }
+}
+@media only screen and (max-width:280px)
+{
+    .tengah1{
+        width: 225px;
+        
+        height: 500px;
+    }
+    .tengah2{
+        margin-top: 320px;
+        width: 225px;
+        
+        height: 500px;
+    }
+    .tengah1 .isi{
+        color: red;
+    }
+    .PELAPORAN{
+        height: 1800px;
+    }
+}
+@media only screen and (max-width:254px)
+{
+    .tengah1{
+        width: 195px;
+        
+        height: 559px;
+    }
+    .tengah2{
+        margin-top: 320px;
+        width: 195px;
+        
+        height: 559px;
+    }
+    .tengah1 .isi{
+        color: red;
+    }
+    .PELAPORAN{
+        height: 1800px;
+    }
+    .PELAPORAN .judul{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width:288px)
+{
+    .tengah1{
+        width: 230px;
+        
+        height: 559px;
+    }
+    .tengah2{
+        margin-top: 320px;
+        width: 230px;
+        
+        height: 559px;
+    }
+    .tengah1 .isi{
+        color: red;
+    }
+    .PELAPORAN{
+        height: 1800px;
+    }
+    .PELAPORAN .judul{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width:295px)
+{
+    .tengah1{
+        width: 235px;
+        
+        height: 559px;
+    }
+    .tengah2{
+        margin-top: 320px;
+        width: 235px;
+        
+        height: 559px;
+    }
+    .tengah1 .isi{
+        color: red;
+    }
+    .PELAPORAN{
+        height: 1800px;
+    }
+    .PELAPORAN .judul{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width:248px)
+{
+    .tengah1{
+        width: 235px;
+        
+        height: 559px;
+    }
+    .tengah2{
+        margin-top: 320px;
+        width: 235px;
+        
+        height: 559px;
+    }
+    .tengah1 .isi{
+        color: red;
+    }
+    .PELAPORAN{
+        height: 1800px;
+    }
+    .PELAPORAN .judul{
+        font-size: 25px;
+    }
+}

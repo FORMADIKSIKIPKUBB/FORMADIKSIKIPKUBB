@@ -196,9 +196,8 @@ span{
     }  
     .tengah1{
         width: 235px;
-        align-items: center;
-        justify-content: center;
-        height: 850px;
+        margin-right: -25px;
+        height: 800px;
     }
     .tengah2{
         margin-top: 320px;

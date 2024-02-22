@@ -88,7 +88,6 @@ nav ul li:hover ul.dropdown{
 
 .PELAPORAN .judul {
     padding-top: 15px;
-    
     color: white;
     font-size: 40px;
     text-align: center;
@@ -316,16 +315,16 @@ span{
         font-size: 25px;
     }
 }
-@media only screen and (max-width:288px)
+@media only screen and (max-width:275px)
 {
     .tengah1{
-        width: 230px;
+        width: 190px;
         
         height: 559px;
     }
     .tengah2{
         margin-top: 320px;
-        width: 230px;
+        width: 190px;
         
         height: 559px;
     }

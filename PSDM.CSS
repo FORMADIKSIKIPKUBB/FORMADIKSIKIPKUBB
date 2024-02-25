@@ -109,7 +109,7 @@ nav ul li:hover ul.dropdown{
 
 .pra p a{
     display: grid;
-    background-color: silver;
+    background-color: red;
     color: black;
     border: 2px solid white;
     font-weight: bold;

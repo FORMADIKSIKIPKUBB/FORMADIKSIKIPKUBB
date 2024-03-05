@@ -86,6 +86,7 @@ nav ul li:hover ul.dropdown{
   opacity: 30%;
 }
 .content{
+    padding-bottom: 15px;
     position: absolute;
     flex-wrap: wrap;
     top: 60%;
@@ -182,9 +183,7 @@ h3 i{
     
     background-color: transparent;
 }
-.content{
-    padding-bottom: 10px;
-}
+
 
 
 @media only screen and (min-width:1920px)

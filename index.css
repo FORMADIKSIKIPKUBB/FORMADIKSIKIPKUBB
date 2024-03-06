@@ -86,14 +86,25 @@ nav ul li:hover ul.dropdown{
   opacity: 30%;
 }
 .content{
-    padding-bottom: 15px;
+    margin-bottom: 15px;
     position: absolute;
     flex-wrap: wrap;
     top: 60%;
     left: 10%;
     transform: translateY(-50%)
+    
 
 }
+.content h4{
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.content h3 {
+    padding-top: 25px;
+    text-shadow: 5px 5px 10px blue, -5px -5px 10px white;
+}
+
+
 .about{
     width: 100%;
     padding: 100px 0;
@@ -180,12 +191,75 @@ h3 i{
 
 .dalam:hover{
     transform: scale(1.2);
-    
     background-color: transparent;
 }
+span{
+    color: red;
+}
+.berita{
+    height: 900px;
+    width: 100%;
+    background-image: url(background.jpg);
+    align-items: center;
 
+}
+.imageo{
+    
+    display: flex;
+    width: 100%;
+    
+}
+.imageo img{
+    width: 100%;
+    
+}
+.wrapper{
+    width: 700px;
+    height: 720px;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#slide-1:target ~ .imageo{
+    margin-left: 0px;
+}
+#slide-2:target ~ .imageo{
+    margin-left: -100%;
+}
+.beritak{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-shadow: 5px 5px 10px blue, -5px -5px 10px whitesmoke;
+    transition: 0.5s ;
 
-
+}
+.bingkai{
+    height: 750px;
+    width: 95%;
+    padding: 20px 20px;
+    background: silver;
+    border-radius: 20px;
+    margin: 15px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid black;
+}
+.navigasi a i{
+    
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: whitesmoke;
+    text-shadow: 5px 5px 10px blue, -5px -5px 10px whitesmoke;
+    transition: 0.5s ;
+}
+.navigasi a i:hover{
+    transform: scale(1.2);
+    background-color: red;
+}
 @media only screen and (min-width:1920px)
 { 
     .index{
@@ -413,4 +487,67 @@ h3 i{
    .war3{
     font-size: 24px;
    }
+   .berita{
+    height: 900px;
+    width: 100%;
+    background-image: url(background.jpg);
+    align-items: center;
+
+}
+.imageo{
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+    
+}
+.imageo img{
+    width: 100%;
+    
+   
+    
+}
+.wrapper{
+    width: 200px;
+    height: 720px;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#slide-1:target ~ .imageo{
+    margin-left: 0px;
+}
+#slide-2:target ~ .imageo{
+    margin-left: -100%;
+}
+.beritak{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-shadow: 5px 5px 10px blue, -5px -5px 10px whitesmoke;
+    transition: 0.5s ;
+
+}
+.bingkai{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    padding: 20px 20px;
+    background: silver;
+    border-radius: 20px;
+    margin: 15px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+.beritak h4{
+    color: whitesmoke;
+    padding-top: 10px;
+    font-size: 35px;
+}
 }

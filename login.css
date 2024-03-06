@@ -8,6 +8,7 @@
 body{
   background: url(background.jpg);
   overflow: hidden;
+  font-family: 'Times New Roman', Times, serif;
 
 }
 ::selection{
@@ -16,7 +17,7 @@ body{
 .container{
   max-width: 440px;
   padding: 0 20px;
-  margin: 170px auto;
+  margin: 120px auto;
 }
 .wrapper{
   width: 100%;
@@ -191,6 +192,7 @@ nav ul li:hover ul.dropdown{
         padding-left: 6%;
         background-color: #191919;
         border-bottom: 3px solid black;
+
     }
     nav ul li {
         list-style-type: none;

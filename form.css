@@ -130,6 +130,264 @@ nav ul li:hover ul.dropdown{
     color: white;
     padding-top: 50px;
 }
+@media only screen and (max-width:250px)
+{ 
+    body{
+        width: 290px;
+        height: auto;
+        
+    }
+    span{
+        padding-left: 0;
+    }
+    .index{
+       
+        background-color: wheat;
+        
+    }
+   
+    .logo{
+        width: 30%;
+        color: white;
+        font-size: 10px;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+    }
+    nav{
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 4%;
+        padding-left: 4%;
+        background-color: #191919;
+        border-bottom: 3px solid black;
+        
+    }
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding:2px 2px;
+    }
+    nav a{
+        font-size: 10px;
+        padding-right: 5px;
+    }
+    .btn{
+        background-color: red;
+        color: wheat;
+        border: 2px solid white;
+        font-weight: bold;
+        padding: 3px 6px;
+        border-radius: 20px;
+        transition: transform .5s;
+    }
+    nav ul li a{
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+        text-transform: capitalize; 
+    }
+    form{
+        padding-top:2px;
+        margin-right:2px;
+        display: grid;
+        padding-right: 2px;
+        padding-left: 2px;
+        overflow: hidden;
+    }
+    .box{
+        height: 400px;
+        width: 230px;
+        padding: 20px 20px;
+        background: silver;
+        border-radius: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+        overflow: hidden;
+        text-align: center;
+        border: 1px solid black;
+        text-align: left;
+    
+        
+    }
+    .box h5{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-top: 50px;
+        position: none;
+        color: whitesmoke;
+    }
+    .judul{
+        font-size: 20px;
+        text-shadow: 5px 5px 10px blue, -5px -5px 10px whitesmoke;
+        color: white;
+        padding-top: 5px;
+        display: flex;
+    }
+    .js{
+        font-size: 10px;
+        text-align: center;
+    }
+    form input{
+        display: flexbox;
+        padding-left:10px;
+        border: 2px solid #f1d0d0;
+        border-radius: 5px;
+        padding-left: 1.5px;
+        margin-bottom: 7px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 1.5px;
+    }
+    form select{
+        display: flexbox;
+        padding-left:10px;
+        border: 2px solid #f1d0d0;
+        border-radius: 5px;
+        padding-left: 1.5px;
+        margin-bottom: 7px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 1.5px;
+       
+    }
+    
+}
+@media only screen and (max-width:500px)
+{ 
+    body{
+        width: 290px;
+        height: auto;
+        
+    }
+    span{
+        padding-left: 0;
+    }
+    .index{
+       
+        background-color: wheat;
+        
+    }
+   
+    .logo{
+        width: 30%;
+        color: white;
+        font-size: 10px;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+    }
+    nav{
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 4%;
+        padding-left: 4%;
+        background-color: #191919;
+        border-bottom: 3px solid black;
+        
+    }
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding:2px 2px;
+    }
+    nav a{
+        font-size: 10px;
+        padding-right: 5px;
+    }
+    .btn{
+        background-color: red;
+        color: wheat;
+        border: 2px solid white;
+        font-weight: bold;
+        padding: 3px 6px;
+        border-radius: 20px;
+        transition: transform .5s;
+    }
+    nav ul li a{
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+        text-transform: capitalize; 
+    }
+    form{
+        padding-top:2px;
+        margin-right:2px;
+        display: grid;
+        padding-right: 2px;
+        padding-left: 2px;
+        overflow: hidden;
+    }
+    .box{
+        height: 400px;
+        width: 230px;
+        padding: 20px 20px;
+        background: silver;
+        border-radius: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+        overflow: hidden;
+        text-align: center;
+        border: 1px solid black;
+        text-align: left;
+    
+        
+    }
+    .box h5{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-top: 50px;
+        position: none;
+        color: whitesmoke;
+    }
+    .judul{
+        font-size: 20px;
+        text-shadow: 5px 5px 10px blue, -5px -5px 10px whitesmoke;
+        color: white;
+        padding-top: 5px;
+        display: flex;
+    }
+    .js{
+        font-size: 10px;
+        text-align: center;
+    }
+    form input{
+        display: flexbox;
+        padding-left:10px;
+        border: 2px solid #f1d0d0;
+        border-radius: 5px;
+        padding-left: 1.5px;
+        margin-bottom: 7px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 1.5px;
+    }
+    form select{
+        display: flexbox;
+        padding-left:10px;
+        border: 2px solid #f1d0d0;
+        border-radius: 5px;
+        padding-left: 1.5px;
+        margin-bottom: 7px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 1.5px;
+       
+    }
+    
+}
 
 @media only screen and (max-width:300px)
 { 

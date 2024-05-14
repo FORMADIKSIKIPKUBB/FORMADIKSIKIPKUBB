@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title> LAPOR KIP-K </title>
+      <link rel="stylesheet" href="form1.css">
+   </head>
+   <body>
+         <div class="container">
+             <h1>LAPOR KIP-K</h1>
+               <!-- akses link script app -->     
+             <form action="https://script.google.com/macros/s/AKfycbw-U7QXJz8IsHUbERCtjkcFK4MdXzC-N52LeHgYENex_pmrspwCg5do6QxThREVqO3FNA/exec" method="post">
+               <!-- end akses  -->
+               <div class="form-group">
+                  <label for="jenis">Jenis:</label>
+               <select name="jenis" id="jenis" aria-placeholder="Jenis">
+                  <option >PILIH JENIS PENGADUAN</option>
+                  <option value="REKOMENDASI">REKOMENDASI</option>
+                  <option value="PELANGGARAN">PELANGGARAN</option>
+               </select>
+               </div>
+                 <div class="form-group">
+                     <label for="nama">NAMA:</label>
+                     <input type="text" id="nama" name="nama" placeholder="PELANGGAR/REKOMENDASI" required>
+                 </div>
+                 <div class="form-group">
+                     <label for="nim">NIM:</label>
+                     <input type="number" id="nim" name="nim" placeholder="PELANGGAR/REKOMENDASI" required>
+                 </div>
+                 <div class="form-group">
+                  <label for="fakultas">Fakultas:</label>
+                  <select name="fakultas" id="fakultas">
+                      <option value="TIDAK DI JAWAB">PILIH FAKULTAS</option>
+                      <option value="SAINS DAN TEKNIK">SAINS DAN TEKNIK</option>
+                      <option value="ILMU SOSIAL DAN ILMU POLITIK">ILMU SOSIAL DAN ILMU POLITIK</option>
+                      <option value="PERTANIAN PERIKANAN DAN KELAUTAN">PERTANIAN PERIKANAN DAN KELAUTAN</option>
+                      <option value="HUKUM">HUKUM</option>
+                      <option value="EKONOMI DAN BISNIS">EKONOMI DAN BISNIS</option>
+                      <option value="KEDOKTERAN DAN ILMU KESEHATAN">KEDOKTERAN DAN ILMU KESEHATAN</option>
+                  </select>
+                 </div>
+                 <div class="form-group">
+                  <label for="jurusan">Jurusan:</label>
+                  <select name="jurusan" id="jurusan">
+                      <option value="TIDAK DI JAWAB">PILIH JURUSAN</option>
+                      <option value="MESIN">MESIN</option>
+                      <option value="ELEKTRO">ELEKTRO</option>
+                      <option value="TAMBANG">TAMBANG</option>
+                      <option value="SIPIL">SIPIL</option>
+                      <option value="TEKNOLOGI INFORMASI">TEKNOLOGI INFORMASI</option>
+                      <option value="ARSITEKTUR">ARSITEKTUR</option>
+                      <option value="BIOLOGI">BIOLOGI</option>
+                      <option value="FISIKA">FISIKA</option>
+                      <option value="KIMIA">KIMIA</option>
+                      <option value="MATEMATIKA">MATEMATIKA</option>
+                      <option value="PERENCANAAN WILAYAH DAN KOTA">PERENCANAAN WILAYAH DAN KOTA</option>
+                      <option value="EKONOMI">EKONOMI</option>
+                      <option value="MANAJEMEN">MANAJEMEN</option>
+                      <option value="AKUNTANSI">AKUNTANSI</option>
+                      <option value="BISNIS DIGITAL">BISNIS DIGITAL</option>
+                      <option value="AGROTEKNOLOGI">AGROTEKNOLOGI</option>
+                      <option value="MANAJEMEN SUMBER PERAIRAN">MANAJEMEN SUMBER PERAIRAN</option>
+                      <option value="AGRIBISNIS">AGRIBISNIS</option>
+                      <option value="AKUAKULTUR">AKUAKULTUR</option>
+                      <option value="ILMU KELAUTAN">ILMU KELAUTAN</option>
+                      <option value="PERIKANAN TANGKAP">PERIKANAN TANGKAP</option>
+                      <option value="HUKUM">HUKUM</option>
+                      <option value="SOSIOLOGI">SOSIOLOGI</option>
+                      <option value="ILMU POLITIK">ILMU POLITIK</option>
+                      <option value="SASTRA INGGRIS">SASTRA INGGRIS</option>
+                      <option value="KEPERAWATAN">KEPERAWATAN</option>
+                      <option value="KEDOKTERAN">KEDOKTERAN</option>
+                  </select>
+                 </div>
+                 
+                 <div class="form-group">
+                     <label for="alasan">Alasan Pengaduan</label>
+                     <textarea id="alasan" name="alasan" rows="4" placeholder="JELASKAN ALASAN ANDA MELAPORKAN REKOMENDASI/PELAGGARAN TERHADAP MAHASISWA TERSEBUT"></textarea>
+                 </div>
+                 <button class="submit" type="submit" >KLIK UNTUK LAPOR </button>
+             </form>
+         </div>
+   </body>
+</html>

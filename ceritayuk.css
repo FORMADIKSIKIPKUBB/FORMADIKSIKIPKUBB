@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-decoration: none;
+  }
+  
+  
+  .container {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 5px 5px 10px blue, -5px -5px 10px whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #a3c1da;
+    outline: none;
+    box-shadow: 0 0 5px rgba(163, 193, 218, 0.5);
+  }
+  
+  .submit{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: rgb(18,6,181);
+    background: radial-gradient(circle, rgba(18,6,181,1) 0%, rgba(252,8,8,1) 32%, rgba(126,6,200,1) 67%, rgba(0,0,0,1) 100%);
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .submit:hover {
+    transform: scale(1.1);
+    border: 2px solid red;
+    background-color: transparent;
+  }
+  

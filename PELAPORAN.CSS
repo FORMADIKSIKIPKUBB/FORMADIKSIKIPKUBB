@@ -5,8 +5,13 @@
     
 }
 
-    
+body{
+    height: 100vh;
+    width: 100%;
+}    
 nav{
+    
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -75,36 +80,118 @@ nav ul li:hover ul.dropdown{
     border: 2px solid red;
     background-color: transparent;
 }
+.countdown1{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}
+.countdown {
+    text-align: center;
+}
+.kata-ct{
+font-size: 30px;
+color: whitesmoke;
+text-align: center;
+padding-bottom: 50px;
+text-shadow: 10px 10px 20px blue, -10px -10px 20px white;
+
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.time {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    text-shadow: 10px 10px 20px blue, -10px -10px 20px white;
+}
 .PELAPORAN{
+    height: 100vh;
+    margin-bottom: 200px;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
     margin: 0;
     padding: 0;
-    height: 800px;
+    height: 100vh;
     width: 100%;
-    background-image: url(background.jpg);
+    
     font-family: 'Times New Roman', Times, serif;
 }
-    
+/* test */    
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 150px;
+    width: 120px;
+   
+    background: transparent;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid black;
+}
+.card a img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 
+}
+
+
+.judul1{
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 5px 5px 10px blue, -5px -5px 10px whitesmoke;
+    justify-content:center;
+    align-items: center;
+    cursor: not-allowed;
+}
 
 .PELAPORAN .judul {
-    padding-top: 15px;
+    padding-top: 105px;
     color: white;
     font-size: 40px;
     text-align: center;
     text-shadow: 5px 5px 10px blue, -5px -5px 10px whitesmoke;
+    justify-content:center;
+    align-items: center;
+    cursor: not-allowed;
 }
 .tengah1{
-   
-        height: 300px;
-        width: 1275px;
-        padding: 10px 10px;
-        background: transparent;
-        border-radius: 20px;
-        margin: 15px;
-        overflow: hidden;
-        text-align: center;
-        border: 1px solid white;
-        position: relative;
+    justify-content:center;
+    align-items: center;
+    width: 90%;
+    background: transparent;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 40px;
+    position: relative;
         
 }
 .kata1{
@@ -161,7 +248,7 @@ span{
     nav{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         padding-top: 2px;
         padding-bottom: 2px;
         padding-right: 3%;
@@ -196,8 +283,8 @@ span{
     }  
     .tengah1{
         width: 235px;
-        margin-right: -25px;
-        height: 800px;
+        
+        height: 559px;
     }
     .tengah2{
         margin-top: 320px;
@@ -214,4 +301,8 @@ span{
     .PELAPORAN .judul{
         font-size: 25px;
     }
+}
+
+.PELAPORAN{
+    margin-right: -25px;
 }

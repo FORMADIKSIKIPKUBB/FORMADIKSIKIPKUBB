@@ -16,10 +16,13 @@ nav{
     padding-bottom: 10px;
     padding-right: 8%;
     padding-left: 8%;
-    background: rgb(18,6,181);
-    background: radial-gradient(circle, rgba(18,6,181,1) 0%, rgba(252,8,8,1) 32%, rgba(126,6,200,1) 67%, rgba(0,0,0,1) 100%);
-    border-bottom: 5px solid black;
-
+    background-image: url(page5.jpg);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    border-bottom: 5px solid whitesmoke;
+    position: sticky;
+    top: 0;
 }
 .logo{
     width: 30%;
@@ -78,59 +81,7 @@ nav ul li:hover ul.dropdown{
     background-color: transparent;
 }
 
-.box {
-    padding-top: 130px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: center;
-    align-items: center;  
-}
-.card{
-    height: 450px;
-    width: 1275px;
-    padding: 20px 20px;
-    background: silver;
-    border-radius: 20px;
-    margin: 15px;
-    overflow: hidden;
-    text-align: center;
-    border: 1px solid black;
-}
 
-.card h5{
-    color:red;
-    font-size: 30px;
-    margin-bottom: 10px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    text-shadow: 5px 5px 10px blue, -5px -5px 10px whitesmoke;
-}
-
-.pra p a{
-    display: grid;
-    background-color: red;
-    color: black;
-    border: 2px solid white;
-    font-weight: bold;
-    padding-top: 30px ;
-    padding-bottom: 30px;
-    border-radius: 20px;
-    font-size: 15px;
-    margin-bottom: 10px;
-    transition: 0.5s ;
-    
-}
-.pra p a:hover{
-    transform: scale(1.1);
-    border: 2px solid red;
-    background-color: transparent;
-}
-.card .deskripsi{
-    font-size: 20px;
-    color: black;
-    padding-bottom: 15px;
-}
 .about{
     width: 100%;
     padding: 40px 0;
@@ -192,6 +143,202 @@ h3 i{
 span{
     padding-left: 14px ;
 }
+.kata{
+    border-bottom: 20px solid grey;
+    border-radius: 0px;
+}
+.judul{
+    margin-left: 60px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 10px blue, -5px -5px 10px white;
+    
+   
+}
+/* styles.css */
+.atur{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-clip: border-box;
+    border-bottom: 20px solid whitesmoke;
+    border-radius: 0px;
+}
+.atur1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-clip: border-box;
+    border-bottom: 20px solid whitesmoke;
+    border-radius: 0px;
+}
+/* Card Container */
+.card {
+    
+   
+    overflow: hidden;
+    text-align: center;
+    width: 250px;
+    margin: 20px auto;
+   padding: 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Header */
+.card-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.card-header h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+/* Card Body */
+.card-body {
+    
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    
+
+}
+
+/* Card Footer */
+.card-footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    
+}
+.card-footer :hover{
+    height: 50px;
+    transform: scale(1.2);
+    text-shadow: 10px 10px -20px black,10px 10px -20px black;
+}
+.card-footer a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Additional Styles for Better Readability */
+body {
+    font-family: Arial, sans-serif;
+}
+img{
+    justify-content: center;
+    align-items: center;
+}
+.logos{
+font-size: 10px;
+}
+.fot{
+    opacity: 0;
+}
+.card-footer :hover .fot{
+  opacity: 1;
+}
+  
+@media only screen and (max-width:420px)
+{  body{
+        background-image: url(bckhp.png.png);
+    }
+    .judul{
+        
+      
+        margin-left: 2px;
+        font-size: 15px;
+       
+    }
+    .card{
+        width: 50px;
+        height: 100px;
+        margin: 5px auto;
+        border-radius: 2px;
+    }
+    .card-header{
+        padding: 2px;
+    }
+    .card-header h2{
+        font-size:6px;
+    }
+    .card-body{
+        width: 50px;
+        height: 40px;
+    }
+    .card-footer p{
+        font-size: 6px;
+        
+    }
+    .card-footer{
+        padding-top: 5px;
+       
+    }
+    img{
+        width: 50px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 4%;
+        padding-left: 4%;
+        background-color: #191919;
+        border-bottom: 3px solid black;
+    }
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding:2px 2px;
+    }
+    nav a{
+        font-size: 10px;
+        padding-right: 5px;
+    }
+    .btn{
+        background-color: red;
+        color: wheat;
+        border: 2px solid white;
+        font-weight: bold;
+        padding: 3px 6px;
+        border-radius: 20px;
+        transition: transform .5s;
+    }
+    nav ul li a{
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+        text-transform: capitalize; 
+    }  
+    .logo{
+        font-size: 10px
+        ;
+    }
+}   
 @media only screen and (max-width:700px)
 { 
    
@@ -351,61 +498,7 @@ span{
         margin-bottom: 30px auto;
         text-align: center;
     }
-    .box {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        min-height: 200px;
-    }
-    .card{
-        height: 290px;
-        width: 230px;
-        padding: 20px 35px;
-        background: transparent;
-        border-radius: 15px;
-        margin: 15px;
-        position: relative;
-        overflow: hidden;
-        text-align: center;
-        border: 1px solid red;
-        
-    }
-    .card i{
-        font-size: 25px;
-        display: block;
-        text-align: center;
-        margin: 12px 0;
-        color: red;
-    }
-    .card h5{
-        color: white;
-        font-size: 10px;
-        margin-bottom: 8px;
-        padding-bottom: 7px;
-        
-    }
-    .pra p a{
-        background-color: red;
-        color: wheat;
-        border: 2px solid white;
-        font-weight: bold;
-        font-size: 10px;
-        padding: 2px 6px;
-        border-radius: 10px;
-        
-       
-    }
-    .title h2{
-        color: blue;
-    }
-    .pra p a{
-        background-color: red;
-        color: wheat;
-        border: 2px solid white;
-        font-weight: bold;
-        padding: 9px 22px;
-        border-radius: 30px;
-    }
+   
    .war3{
     font-size: 24px;
    }

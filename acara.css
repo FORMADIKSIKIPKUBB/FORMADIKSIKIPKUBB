@@ -1,0 +1,554 @@
+body{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-clip: border-box;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-image: url(page5.jpg);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    border-bottom: 5px solid whitesmoke;
+    position: sticky;
+    top: 0;
+    text-decoration: none;
+  
+}
+.logo{
+    width: 30%;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+nav ul li{
+    
+    display: inline-block;
+    padding: 10px 10px;
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-shadow: 40%;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: red;
+    transition: 0.5s;
+}
+nav li ul.dropdown li{
+    display: block;
+}
+nav ul li ul.dropdown {
+    width: 160px;
+    background: BLACK;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    border-radius: 10px;
+    border:  2px solid red;
+}
+nav ul li a:hover{
+    background: whitesmoke;
+}
+nav ul li:hover ul.dropdown{
+    display: block;
+}
+.btn{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius:30px;
+    transition: 0.5s ;
+    text-decoration: none;
+}
+.btn:hover{
+    transform: scale(1.2);
+    border: 2px solid red;
+    background-color: transparent;
+}
+.acara{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-clip: border-box;
+    
+}
+.mar-acara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    overflow: hidden;
+    text-align: center;
+    width: 250px;
+    margin: 25px auto;
+   padding: 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Header */
+.card-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.card-header h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+/* Card Body */
+/*.card-body {
+    
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+    
+
+}*/
+
+/* Card Footer */
+.card-footer {
+    background-color: #f0f0f0;
+    padding: 40px;
+    border-top: 1px solid #ccc;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    
+}
+/*.card-footer:hover{
+    transform: scale(1.2);
+    text-shadow: 10px 10px -20px black,10px 10px -20px black;
+}*/
+.card-footer a{
+    text-decoration: none;
+    color: black;
+   
+    align-items: center;
+    justify-content: center;
+}
+/*.card-footer a:hover{
+ color: white;
+ transform: scale(1.2);
+ text-shadow: 10px 10px -20px black,10px 10px -20px black;
+
+}*/
+.live{
+    color: black;
+    text-align: center;
+    border: 2px solid white;
+    background-color: whitesmoke;
+    animation: blink 2s ease infinite alternate forwards;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: no-drop;
+    margin: 15px;
+}
+
+
+.live i{
+    padding-right: 5px;
+}
+
+.live-ok a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+@keyframes blink{
+    0%{
+        border: 10px solid whitesmoke;
+       
+        background-color: whitesmoke;
+    }
+  
+    100%{
+        
+        border: 10px solid red; 
+        color: whitesmoke;
+        background-color: red;
+    }
+}
+
+
+
+.ongoing-ok{
+    margin-left: 0px;
+    margin: 20px;
+    margin-top: 15px;
+    font-size: 12px;
+    
+    border-radius: 20px;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+.ongoing-ok:hover{
+    animation: sub 600ms ease infinite forwards;
+    transition: 2s;
+    
+}
+@keyframes sub{
+     0%{
+        border-left: 10px solid white;
+        border-top: 10px solid red; 
+        border-right: 10px solid white;
+        border-bottom: 10px solid red;
+       
+    }
+    100%{
+        border-left: 10px solid red;
+        border-top: 10px solid white; 
+        border-right: 10px solid red;
+        border-bottom: 10px solid white;
+       
+    }
+   
+}
+.ongoing{
+    color: black;
+    text-align: center;
+    border: 2px solid white;
+    background-color: whitesmoke;
+    animation: y 2s ease infinite alternate forwards;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: no-drop;
+}
+.ongoing i{
+    padding-right: 5px;
+}
+.jls{
+    border-bottom: 5px solid grey;
+}
+
+
+@keyframes y{
+    0%{
+        border: 10px solid whitesmoke;
+       
+        background-color: whitesmoke;
+    }
+  
+    100%{
+        
+        border: 10px solid yellow; 
+        color: red;
+        background-color: yellow;
+    }
+}
+
+.done{
+    color: black;
+    text-align: center;
+    border: 2px solid white;
+    background-color: whitesmoke;
+    animation: x 2s ease infinite alternate forwards;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: no-drop;
+}
+
+
+.done i{
+    padding-right: 5px;
+}
+
+@keyframes x{
+    0%{
+        border: 10px solid whitesmoke;
+       
+        background-color: whitesmoke;
+    }
+  
+    100%{
+        
+        border: 10px solid green; 
+        color: whitesmoke;
+        background-color: green;
+    }
+}
+
+.done-ok{
+    margin-left: 0px;
+    margin: 20px;
+    margin-top: 15px;
+    font-size: 12px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+.done-ok:hover{
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 20px;
+    color: whitesmoke;
+
+}
+.noe{
+    text-decoration: none;
+}
+.noe .attention{
+    color: whitesmoke;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 200px;
+   
+    text-align: center;
+    text-shadow: 5px 5px 10px blue, -5px -5px 10px whitesmoke;
+    
+    
+}
+@media only screen and (max-width:420px)
+{ .body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bckhp.png.png);
+    background-size: cover;
+    background-clip: border-box;
+    margin-top: 0px;
+}
+    .acara{
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-image: url(bckhp.png.png);
+        background-size: cover;
+        background-clip: border-box;
+        margin-top: 0px;
+        top: 0;
+    }
+    .judul{
+        
+      
+        margin-left: 2px;
+        font-size: 25px;
+       
+    }
+    .card{
+        width: 200px;
+        height: 250px;
+        margin: 50px auto;
+        border-radius: 2px;
+        background-color: whitesmoke;
+        overflow: scroll;
+    }
+    .card-header{
+        padding: 2px;
+    }
+    .card-header h2{
+        font-size:16px;
+    }
+    .card-body{
+        width: 50px;
+        height: 40px;
+    }
+    .card-footer p{
+        font-size: 10px;
+        
+    }
+    .card-footer{
+        padding-top: 5px;
+        background-color: whitesmoke;
+       
+    }
+    img{
+        width: 50px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 4%;
+        padding-left: 4%;
+        background-color: #191919;
+        border-bottom: 3px solid black;
+    }
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding:2px 2px;
+    }
+    nav a{
+        font-size: 10px;
+        padding-right: 5px;
+    }
+    .btn{
+        background-color: red;
+        color: wheat;
+        border: 2px solid white;
+        font-weight: bold;
+        padding: 3px 6px;
+        border-radius: 20px;
+        transition: transform .5s;
+    }
+    nav ul li a{
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+        text-transform: capitalize; 
+    }  
+    .logo{
+        font-size: 10px
+        ;
+    }
+    .noe .attention{
+        color: whitesmoke;
+        font-size: 15px;
+        text-transform: capitalize;
+        margin-bottom: 200px;
+       overflow: auto hidden;
+        text-align: center;
+        text-shadow: 5px 5px 10px blue, -5px -5px 10px whitesmoke;
+        
+        
+    }
+    .live{
+        color: black;
+        text-align: center;
+        border: 2px solid white;
+        background-color: whitesmoke;
+        animation: blink 2s ease infinite alternate forwards;
+        border-radius: 10px;
+        font-size: 10px;
+        cursor: no-drop;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+    
+    
+    .live i{
+        padding-right: 5px;
+    }
+    
+    .live-ok a{
+        text-decoration: none;
+        color: grey;
+        font-size: 11px;
+    }
+    @keyframes blink{
+        0%{
+            border: 10px solid whitesmoke;
+           
+            background-color: whitesmoke;
+        }
+      
+        100%{
+            
+            border: 10px solid red; 
+            color: whitesmoke;
+            background-color: red;
+        }
+    }
+    .desk h5{
+        font-size: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+    }
+    .jls{
+        border-bottom: 5px solid grey;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 10px;
+    }
+    .ongoing{
+        color: black;
+        text-align: center;
+        border: 2px solid white;
+        background-color: whitesmoke;
+        animation: y 2s ease infinite alternate forwards;
+        border-radius: 10px;
+        font-size: 10px;
+        cursor: no-drop;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    
+    .ongoing i{
+        padding-right: 5px;
+    }
+    
+    .ongoing-ok a{
+        text-decoration: none;
+        color: green;
+    }
+    .done{
+        color: black;
+        text-align: center;
+        border: 2px solid white;
+        background-color: whitesmoke;
+        animation: x 2s ease infinite alternate forwards;
+        border-radius: 10px;
+        font-size: 10px;
+        cursor: no-drop;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+    
+    
+    .done i{
+        padding-right: 5px;
+    }
+    
+    .done-ok a{
+        text-decoration: none;
+        color: green;
+    }
+    .done-ok:hover{
+        background-color: green;
+    border: 2px solid green;
+    border-radius: 20px;
+    color: whitesmoke;
+    }
+    .mar-acara{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}   

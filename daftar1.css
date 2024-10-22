@@ -1,0 +1,171 @@
+body{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-clip: border-box;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-image: url(page5.jpg);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    border-bottom: 5px solid whitesmoke;
+    position: sticky;
+    top: 0;
+    text-decoration: none;
+  
+}
+.logo{
+    width: 30%;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+nav ul li{
+    
+    display: inline-block;
+    padding: 10px 10px;
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-shadow: 40%;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: red;
+    transition: 0.5s;
+}
+nav li ul.dropdown li{
+    display: block;
+}
+nav ul li ul.dropdown {
+    width: 160px;
+    background: BLACK;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    border-radius: 10px;
+    border:  2px solid red;
+}
+nav ul li a:hover{
+    background: whitesmoke;
+}
+nav ul li:hover ul.dropdown{
+    display: block;
+}
+.btn{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius:30px;
+    transition: 0.5s ;
+    text-decoration: none;
+}
+.btn:hover{
+    transform: scale(1.2);
+    border: 2px solid red;
+    background-color: transparent;
+}
+ .fr{text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width:420px)
+{
+iframe{
+    width: 300px;
+    height: 500px;
+}
+.card{
+    width: 200px;
+    height: 250px;
+    margin: 50px auto;
+    border-radius: 2px;
+    background-color: whitesmoke;
+    overflow: scroll;
+}
+.card-header{
+    padding: 2px;
+}
+.card-header h2{
+    font-size:16px;
+}
+.card-body{
+    width: 50px;
+    height: 40px;
+}
+.card-footer p{
+    font-size: 10px;
+    
+}
+.card-footer{
+    padding-top: 5px;
+    background-color: whitesmoke;
+   
+}
+img{
+    width: 50px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 4%;
+    padding-left: 4%;
+    background-color: #191919;
+    border-bottom: 3px solid black;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding:2px 2px;
+}
+nav a{
+    font-size: 10px;
+    padding-right: 5px;
+}
+.btn{
+    background-color: red;
+    color: wheat;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 3px 6px;
+    border-radius: 20px;
+    transition: transform .5s;
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 8px;
+    text-transform: capitalize; 
+}  
+.logo{
+    font-size: 10px
+    ;
+}
+
+
+}
